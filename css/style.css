@@ -88,7 +88,7 @@ h6 {
 }
 
 body {
-  background: url(/img/backg.jpg) 0 0/cover no-repeat;
+  background: url(../img/backg.jpg) 0 0/cover no-repeat;
   font-size: 20px;
   line-height: 150%;
   background-color: #333;
@@ -278,5 +278,5 @@ body {
   width: 55px;
   height: 55px;
   border-radius: 50%;
-  background: url(/img/vk.png) 0 0/55px 55px;
+  background: url(../img/vk.png) 0 0/55px 55px;
 }
