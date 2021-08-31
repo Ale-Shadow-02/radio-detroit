@@ -1,1 +1,1 @@
-# radio-detroit
+# Проект сайта радио "Radio Detroit"
