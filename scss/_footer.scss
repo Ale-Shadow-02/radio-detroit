@@ -1,0 +1,24 @@
+.footer {
+   padding: 0 0 30px 0;
+   &__content {
+      text-align: right;
+   }
+}
+
+.btn {
+   background: #538ec5;
+   padding: 10px 10px 10px 75px;
+   border-radius: 10px;
+   color: #fff;
+   position: relative;
+   &::before {
+      content: "";
+      position: absolute;
+      top: -6px;
+      left: 10px;
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+      background: url(/img/vk.png) 0 0/55px 55px;
+   }
+}

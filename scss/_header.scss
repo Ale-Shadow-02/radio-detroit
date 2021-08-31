@@ -8,6 +8,7 @@
 	z-index: 50;
 	// .header__content
 	&__content {
+
 	}
 	// .header__menu
 	&__menu {
@@ -23,24 +24,22 @@
 	// .menu__list
 	&__list {
 		display: flex;
+		justify-content: flex-end;
 		li {
-			margin: 0px 15px 0px 0px;
+			margin: 0px 30px 0px 0px;
 		}
 	}
 	// .menu__link
 	&__link {
-		color: #000;
+		color: #ffffff;
 		&._active {
 			color: red;
 		}
 	}
 }
-.icon-menu {
-}
 
-//====================================================================================================
 
-/*
+
 //Burger
 .icon-menu {
 	display: none;
@@ -60,7 +59,7 @@
 			position: absolute;
 			width: 100%;
 			height: 2px;
-			background-color: #000;
+			background-color: #ffffff;
 			&:first-child {
 				top: 0px;
 			}
@@ -84,4 +83,3 @@
 		}
 	}
 }
-*/
