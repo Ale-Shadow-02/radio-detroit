@@ -1,3 +1,47 @@
-main {
-	
+.wrap-radio {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding: 150px 0 0 0;
+}
+
+.info {
+   text-align: center;
+   &__img {
+      vertical-align: baseline;
+   }
+}
+.player {
+   &__title {
+      font-family: 'Rubik', sans-serif;
+      font-size: 150px;
+      line-height: 1;
+      margin: 0 0 45px 0;
+      text-align: center;
+   }
+   &__radio {
+      font-size: 130px;
+   }
+}
+.my_player {
+   margin-left: 100px;
+   &_default {
+      height: 40px!important;
+      width: 300px!important;
+   }
+}
+
+.my_player_default .my_play {
+   top: 12px!important;
+}
+.my_player_default .my_timer {
+   top: 15px!important;
+}
+.my_player_default .my_mute {
+   right: 90px!important;
+   top: 13px!important;
+}
+.my_player_default .my_volumediv {
+   top: 17px!important;
+   width: 70px!important;
 }

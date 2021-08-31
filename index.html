@@ -5,6 +5,9 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,500&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 	<title>Радио Детроит</title>
 </head>
@@ -30,7 +33,40 @@
 			</div>
 		</header>
 		<main>
-
+			<div class="wrap-radio _container">
+				<div class="info">
+					<!--INFOS - Информация о радио -->
+					<!-- <div data-myinfo="logo" style="width:300px; height:80px; background-size:cover;"></div> -->
+					<div data-myinfo="img" style="width:400px; height:400px; background-size:cover; border-radius: 50%">
+					</div>
+					<br>
+					<b data-myinfo="song"></b><br>
+					Следует: <span data-myinfo="nextsong"></span><br>
+					<br>
+					<b>&#127911;</b> <b data-myinfo="listeners"></b> <span data-myinfo="isonline"></span> - <span
+						data-myinfo="kbps"></span> kbps
+					<a href="https://myradio24.org/3311.m3u" target="_blank">
+						<img src="https://myradio24.com/img/wmp.gif" class="info__img" title="Слушать радио в плеере" />
+					</a>
+					<a href="https://myradio24.com/ru/player/3311"
+						onclick="window.open(this.href,'player','width=300,height=30'); return false;">
+						<img src="https://myradio24.com/img/open.gif" class="info__img" title="Слушать радио в новом окне" />
+					</a>
+					<br>
+					Вещает: <b data-myinfo="djname"></b><br>
+					<div data-myinfo="htmlavatar"></div>
+					<a href="#" target="_blank" data-myinfo="url"></a><br>
+					<br><br>
+					<!--END INFOS-->
+				</div>
+				<div class="player">
+					<h1 class="player__title"><span class="player__radio">Radio</span><br><span>Detroit</span></h1>
+					<!--PLAYER - Блок расположения плеера. Плееры: default, lite, energy или custom (свой плеер) (можно несколько) -->
+					<div id="my_player" class="my_player" data-player="default" data-skin="" data-width=200 data-autoplay=0
+						data-volume=70 data-streamurl="https://myradio24.org/3311"></div>
+					<!--END PLAYER-->
+				</div>
+			</div>
 		</main>
 		<footer class="footer">
 			<div class="footer__content _container">
@@ -40,7 +76,8 @@
 			</div>
 		</footer>
 	</div>
-
+	<!--Этот скрипт должен располагаться в самом низу после всех блоков и не должен повторяться на странице. -->
+	<script src="https://myradio24.com/player/player.js?v3.23" data-port="3311" data-interval=15 data-vmid=0></script>
 </body>
 
 </html>
