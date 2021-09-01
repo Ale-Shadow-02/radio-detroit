@@ -246,8 +246,13 @@ body {
   font-size: 130px;
 }
 
-.my_player {
-  margin-left: 100px;
+.wrap-player {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .my_player_default {
@@ -298,4 +303,50 @@ body {
   height: 55px;
   border-radius: 50%;
   background: url(../img/vk.png) 0 0/55px 55px;
+}
+
+@media (max-width: 991.98px) {
+  .info__img {
+    width: 200px;
+    height: 200px;
+  }
+  .player__title {
+    font-size: 110px;
+  }
+  .player__radio {
+    font-size: 90px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .wrap-radio {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding: 80px 10px 0 10px;
+  }
+  .info {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+  }
+  .player {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+    padding: 0 0 50px 0;
+  }
+  .footer__content {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .player__title {
+    font-size: 90px;
+  }
+  .player__radio {
+    font-size: 80px;
+  }
 }

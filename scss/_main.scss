@@ -32,8 +32,13 @@
       font-size: 130px;
    }
 }
+
+.wrap-player {
+   display: flex;
+   justify-content: center;
+}
+
 .my_player {
-   margin-left: 100px;
    &_default {
       height: 40px!important;
       width: 300px!important;
