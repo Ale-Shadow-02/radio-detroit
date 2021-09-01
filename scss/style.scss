@@ -1,14 +1,5 @@
-$minWidth: 320px;
-$maxWidth: 1920;
-$maxWidthContainer: 1170;
-$md1: $maxWidthContainer + 12;
-$md2: 991.98;
-$md3: 767.98;
-$md4: 479.98;
-
 @import "_null";
 body {
-	background: url(../img/backg.jpg) 0 0/cover no-repeat;
 	font-size: 20px;
 	line-height: 150%;
 	background-color: #333;
@@ -17,6 +8,7 @@ body {
 }
 
 .wrapper {
+	background-image: linear-gradient(to bottom right, #200354, #a720c2, #17014c);
 	width: 100%;
 	min-height: 100%;
 	overflow: hidden;
@@ -26,8 +18,9 @@ body {
 }
 
 ._container {
-	max-width: $maxWidthContainer + px;
+	max-width: 1170px;
 	margin: 0 auto;
+	padding: 0 10px;
 }
 
 @import "_header";
