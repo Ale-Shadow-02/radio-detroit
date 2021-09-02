@@ -6,11 +6,12 @@
 }
 
 .btn {
-   background: #538ec5;
+   background: #ffffff;
    padding: 10px 10px 10px 75px;
    border-radius: 10px;
-   color: #fff;
+   color: #000;
    position: relative;
+   transition: 0.3s;
    &::before {
       content: "";
       position: absolute;
@@ -20,5 +21,10 @@
       height: 55px;
       border-radius: 50%;
       background: url(../img/vk.png) 0 0/55px 55px;
+   }
+   &:hover {
+      background: #9e1eba;
+      color: #fff;
+      transition: 0.3s;
    }
 }

@@ -24,25 +24,27 @@
 <body>
 	<div class="wrapper">
 		<header class="header">
-			<div class="header__content _container">
-				<div class="header__menu menu">
-					<div class="menu__icon icon-menu">
-						<span></span>
-						<span></span>
+			<div class="header__content container">
+				<div class="header__body">
+					<a href="/" class="header__logo">
+						<img src="img/logo.png" alt="LOGO">
+					</a>
+					<div class="header__burger">
 						<span></span>
 					</div>
-					<nav class="menu__body">
-						<ul class="menu__list">
-							<li><a href="#" class="menu__link">Табы</a></li>
-							<li><a href="#" class="menu__link">Форма</a></li>
-							<li><a href="#" class="menu__link">Галерея</a></li>
+					<nav class="header__menu">
+						<ul class="header__list">
+							<li><a href="https://vk.com/gta_detroit" class="header__link" target="_blank">GTA Detroit
+									ВКонтакте</a>
+							</li>
+							<li><a href=" http://gtadetroit.ru/" class="header__link" target="_blank">Сайт проекта</a></li>
 						</ul>
 					</nav>
 				</div>
-			</div>
 		</header>
+
 		<main>
-			<div class="wrap-radio _container">
+			<div class="wrap-radio container">
 				<div class="info">
 					<!--INFOS - Информация о радио -->
 					<!-- <div data-myinfo="logo" style="width:300px; height:80px; background-size:cover;"></div> -->
@@ -83,7 +85,7 @@
 			</div>
 		</main>
 		<footer class="footer">
-			<div class="footer__content _container">
+			<div class="footer__content container">
 				<div class="footer__button">
 					<a href="https://vk.com/radiodetroit" class="btn" target="_blank">Мы ВКонтакте</a>
 				</div>
@@ -92,6 +94,10 @@
 	</div>
 	<!--Этот скрипт должен располагаться в самом низу после всех блоков и не должен повторяться на странице. -->
 	<script src="https://myradio24.com/player/player.js?v3.23" data-port="3311" data-interval=15 data-vmid=0></script>
+	<!-- Подключаем jQuery -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<!-- Подключаем файл JS скриптов -->
+	<script src="js/script.js"></script>
 </body>
 
 </html>
