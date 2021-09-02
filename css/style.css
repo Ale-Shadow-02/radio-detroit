@@ -154,9 +154,8 @@ body {
 
 .header__logo {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 40px;
-          flex: 0 0 40px;
-  border-radius: 50%;
+      -ms-flex: 0 0 190px;
+          flex: 0 0 190px;
   overflow: hidden;
   position: relative;
   z-index: 3;
@@ -207,8 +206,8 @@ body {
   }
   .header__logo {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 40px;
-            flex: 0 0 40px;
+        -ms-flex: 0 0 120px;
+            flex: 0 0 120px;
   }
   .header__burger {
     display: block;
