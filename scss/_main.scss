@@ -1,37 +1,62 @@
 .wrap-radio {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
+   // display: flex;
+   // flex-wrap: wrap;
+   // justify-content: space-between;
    padding: 150px 10px 0 10px;
 }
 
-.info {
-   flex: 0 1 45%;
-   text-align: center;
-   &__img {
-      width: 400px;
-      height: 400px;
-      background-size: cover;
-      border-radius: 50%;
-      margin: 0 auto;
+.channel-info {
+   &__top {
+      display: flex;
+      align-items: center;
+      &-img {
+         width: 80px;
+         height: 80px;
+         border-radius: 5px;
+         background-size: cover;
+         margin-right: 15px;
+      }
    }
-   &__icon {
-      vertical-align: baseline;
-   }
-}
-.player {
-   flex: 0 1 50%;
    &__title {
-      font-family: 'Rubik', sans-serif;
-      font-size: 150px;
-      line-height: 1;
-      margin: 0 0 45px 0;
-      text-align: center;
+      font-family: Rubik;
+      font-size: 30px;
+      font-weight: 700;
    }
-   &__radio {
-      font-size: 130px;
+   &__subtitle {
+      font-family: Arial;
+      font-size: 28px;
+      font-weight: 500;
+      opacity: 0.7;
    }
 }
+
+// .channel-info {
+//    flex: 0 1 45%;
+//    text-align: center;
+//    &__img {
+//       width: 400px;
+//       height: 400px;
+//       background-size: cover;
+//       border-radius: 50%;
+//       margin: 0 auto;
+//    }
+//    &__icon {
+//       vertical-align: baseline;
+//    }
+// }
+// .player {
+//    flex: 0 1 50%;
+//    &__title {
+//       font-family: "Rubik", sans-serif;
+//       font-size: 150px;
+//       line-height: 1;
+//       margin: 0 0 45px 0;
+//       text-align: center;
+//    }
+//    &__radio {
+//       font-size: 130px;
+//    }
+// }
 
 .wrap-player {
    display: flex;
@@ -40,22 +65,22 @@
 
 .my_player {
    &_default {
-      height: 40px!important;
-      width: 300px!important;
+      height: 40px !important;
+      width: 300px !important;
    }
 }
 
 .my_player_default .my_play {
-   top: 12px!important;
+   top: 12px !important;
 }
 .my_player_default .my_timer {
-   top: 15px!important;
+   top: 15px !important;
 }
 .my_player_default .my_mute {
-   right: 90px!important;
-   top: 13px!important;
+   right: 90px !important;
+   top: 13px !important;
 }
 .my_player_default .my_volumediv {
-   top: 17px!important;
-   width: 70px!important;
+   top: 17px !important;
+   width: 70px !important;
 }
