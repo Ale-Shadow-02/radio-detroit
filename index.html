@@ -17,6 +17,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,500&display=swap" rel="stylesheet">
+	<script src="https://use.fontawesome.com/34788adf88.js"></script>
 	<link rel="stylesheet" href="css/style.css">
 	<title>Радио Детроит</title>
 </head>
@@ -57,8 +58,16 @@
 					<!-- <div data-myinfo="logo" style="width:300px; height:80px; background-size:cover;"></div> -->
 					<div data-myinfo="img" class="channel-info__img"></div>
 					<div class="channel-info__content">
-						<span>Сейчас:</span> <span data-myinfo="song"></span>
-						<p>Следует: <span data-myinfo="nextsong"></span></p>
+						<div class="channel-info__block">
+							<div class="channel-info__box">
+								<span class="channel-info__heading">Сейчас:</span><span data-myinfo="song"
+									class="channel-info__text"></span>
+							</div>
+							<div class="channel-info__box">
+								<span class="channel-info__heading">Следует:</span><span data-myinfo="nextsong"
+									class="channel-info__text"></span>
+							</div>
+						</div>
 
 						<div id="my_player" class="my_player" data-player="default" data-skin="" data-width=200
 							data-autoplay=0 data-volume=70 data-streamurl="https://myradio24.org/3311">
@@ -74,11 +83,12 @@
 							<img src="https://myradio24.com/img/open.gif" class="info__icon"
 								title="Слушать радио в новом окне" />
 						</a>
-						<br>
-						Вещает: <b data-myinfo="djname"></b><br>
+						<p>Вещает: <span data-myinfo="djname"></span></p>
 						<div data-myinfo="htmlavatar"></div>
 						<a href="#" target="_blank" data-myinfo="url"></a><br>
-						<br><br>
+						<div class="social">
+							<a href="#" class="social__icon"><i class="fab fa-vk"></i></a>
+						</div>
 					</div>
 					<!--END INFOS-->
 				</div>
