@@ -49,40 +49,44 @@
 					<div data-myinfo="img" class="channel-info__top-img"></div>
 					<div class="channel-info__block-title">
 						<h1 class="channel-info__title">Radio Detroit <span class="channel-info__subtitle">слушать онлайн
-								бесплатро</span></h1>
+								бесплатно</span></h1>
 					</div>
 				</div>
 				<div class="channel-info">
 					<!--INFOS - Информация о радио -->
 					<!-- <div data-myinfo="logo" style="width:300px; height:80px; background-size:cover;"></div> -->
 					<div data-myinfo="img" class="channel-info__img"></div>
-					<br>
-					<b data-myinfo="song"></b><br>
-					Следует: <span data-myinfo="nextsong"></span><br>
-					<br>
-					<b>&#127911;</b> <b data-myinfo="listeners"></b> <span data-myinfo="isonline"></span> - <span
-						data-myinfo="kbps"></span> kbps
-					<a href="https://myradio24.org/3311.m3u" target="_blank">
-						<img src="https://myradio24.com/img/wmp.gif" class="info__icon" title="Слушать радио в плеере" />
-					</a>
-					<a href="https://myradio24.com/ru/player/3311"
-						onclick="window.open(this.href,'player','width=300,height=30'); return false;">
-						<img src="https://myradio24.com/img/open.gif" class="info__icon" title="Слушать радио в новом окне" />
-					</a>
-					<br>
-					Вещает: <b data-myinfo="djname"></b><br>
-					<div data-myinfo="htmlavatar"></div>
-					<a href="#" target="_blank" data-myinfo="url"></a><br>
-					<br><br>
+					<div class="channel-info__content">
+						<span>Сейчас:</span> <span data-myinfo="song"></span>
+						<p>Следует: <span data-myinfo="nextsong"></span></p>
+
+						<div id="my_player" class="my_player" data-player="default" data-skin="" data-width=200
+							data-autoplay=0 data-volume=70 data-streamurl="https://myradio24.org/3311">
+						</div>
+
+						<p><b>&#127911;</b> <b data-myinfo="listeners"></b> <span data-myinfo="isonline"></span> - <span
+								data-myinfo="kbps"></span> kbps</p>
+						<a href="https://myradio24.org/3311.m3u" target="_blank">
+							<img src="https://myradio24.com/img/wmp.gif" class="info__icon" title="Слушать радио в плеере" />
+						</a>
+						<a href="https://myradio24.com/ru/player/3311"
+							onclick="window.open(this.href,'player','width=300,height=30'); return false;">
+							<img src="https://myradio24.com/img/open.gif" class="info__icon"
+								title="Слушать радио в новом окне" />
+						</a>
+						<br>
+						Вещает: <b data-myinfo="djname"></b><br>
+						<div data-myinfo="htmlavatar"></div>
+						<a href="#" target="_blank" data-myinfo="url"></a><br>
+						<br><br>
+					</div>
 					<!--END INFOS-->
 				</div>
 				<div class="player">
 					<h1 class="player__title"><span class="player__radio">Radio!</span><br><span>Detroit</span></h1>
 					<!--PLAYER - Блок расположения плеера. Плееры: default, lite, energy или custom (свой плеер) (можно несколько) -->
 					<div class="wrap-player">
-						<div id="my_player" class="my_player" data-player="default" data-skin="" data-width=200
-							data-autoplay=0 data-volume=70 data-streamurl="https://myradio24.org/3311">
-						</div>
+
 					</div>
 					<!--END PLAYER-->
 				</div>

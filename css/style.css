@@ -280,7 +280,16 @@ img.body__bg {
 }
 
 .wrap-radio {
+  background: #000000b8;
   padding: 150px 10px 0 10px;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+
+.channel-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .channel-info__top {
@@ -290,6 +299,7 @@ img.body__bg {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 50px;
 }
 
 .channel-info__top-img {
@@ -311,6 +321,14 @@ img.body__bg {
   font-size: 28px;
   font-weight: 500;
   opacity: 0.7;
+}
+
+.channel-info__img {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  background-size: cover;
+  margin-right: 30px;
 }
 
 .wrap-player {
