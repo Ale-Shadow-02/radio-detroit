@@ -69,38 +69,55 @@
 							</div>
 						</div>
 
-						<div id="my_player" class="my_player" data-player="default" data-skin="" data-width=200
-							data-autoplay=0 data-volume=70 data-streamurl="https://myradio24.org/3311">
+						<div id="my_player_custom" class="my_player" data-player="custom" data-autoplay=0 data-volume=30
+							data-streamurl="https://myradio24.org/3311">
 						</div>
+						<div id="my_player_custom_html" style="display:none;"
+							data-imagesurl="{'play':'http://127.0.0.1:5500/img/play.svg','pause':'http://127.0.0.1:5500/img/pause.svg'}">
+							<div class="my_timer" style="width:64px; font:26px Arial; color:#ebba16; margin-bottom: 20px;">
+								00:00</div>
+							<div class="wrap-my_player">
+								<div class="my_play"
+									style="width:64px; height:64px; background-image:url('http://127.0.0.1:5500/img/play.svg'); cursor:pointer; margin-right: 20px;">
+								</div>
 
-						<p><b>&#127911;</b> <b data-myinfo="listeners"></b> <span data-myinfo="isonline"></span> - <span
-								data-myinfo="kbps"></span> kbps</p>
-						<a href="https://myradio24.org/3311.m3u" target="_blank">
-							<img src="https://myradio24.com/img/wmp.gif" class="info__icon" title="Слушать радио в плеере" />
-						</a>
-						<a href="https://myradio24.com/ru/player/3311"
-							onclick="window.open(this.href,'player','width=300,height=30'); return false;">
-							<img src="https://myradio24.com/img/open.gif" class="info__icon"
-								title="Слушать радио в новом окне" />
-						</a>
-						<p>Вещает: <span data-myinfo="djname"></span></p>
-						<div data-myinfo="htmlavatar"></div>
-						<a href="#" target="_blank" data-myinfo="url"></a><br>
-						<div class="social">
-							<a href="#" class="social__icon"><i class="fab fa-vk"></i></a>
+								<div class="my_mute"
+									style="width: 14px; height: 20px; background-image: url('http://127.0.0.1:5500/img/mute_volume.svg'); cursor: pointer; margin-right: 20px;">
+								</div>
+								<div class="my_volumediv"
+									style="width:120px; height:16px; background:#303030; background-image:linear-gradient(#634257, #303030); border-radius:3px; cursor:pointer; text-align:left; user-select:none;">
+									<div class="my_volume"
+										style="width:120px; height:16px; background:#ebba16; border-radius:3px;">
+									</div>
+								</div>
+								<div class="my_loading" style="width:64px; font:16px Arial; color:#ebba16;margin-left: 20px;">
+								</div>
+							</div>
+
+
+
+
+							<p><b>&#127911;</b> <b data-myinfo="listeners"></b> <span data-myinfo="isonline"></span> - <span
+									data-myinfo="kbps"></span> kbps</p>
+							<a href="https://myradio24.org/3311.m3u" target="_blank">
+								<img src="https://myradio24.com/img/wmp.gif" class="info__icon"
+									title="Слушать радио в плеере" />
+							</a>
+							<a href="https://myradio24.com/ru/player/3311"
+								onclick="window.open(this.href,'player','width=300,height=30'); return false;">
+								<img src="https://myradio24.com/img/open.gif" class="info__icon"
+									title="Слушать радио в новом окне" />
+							</a>
+							<p>Вещает: <span data-myinfo="djname"></span></p>
+							<div data-myinfo="htmlavatar"></div>
+							<a href="#" target="_blank" data-myinfo="url"></a><br>
+							<div class="social">
+								<a href="#" class="social__icon"><i class="fab fa-vk"></i></a>
+							</div>
 						</div>
+						<!--END INFOS-->
 					</div>
-					<!--END INFOS-->
 				</div>
-				<div class="player">
-					<h1 class="player__title"><span class="player__radio">Radio!</span><br><span>Detroit</span></h1>
-					<!--PLAYER - Блок расположения плеера. Плееры: default, lite, energy или custom (свой плеер) (можно несколько) -->
-					<div class="wrap-player">
-
-					</div>
-					<!--END PLAYER-->
-				</div>
-			</div>
 		</main>
 		<footer class="footer">
 			<div class="footer__content container">
