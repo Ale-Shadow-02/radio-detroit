@@ -24,117 +24,121 @@
 
 <body>
 	<div class="wrapper">
-		<header class="header">
-			<div class="header__content container">
-				<div class="header__body">
-					<a href="/" class="header__logo">
-						<img src="img/logo.svg" alt="LOGO">
-					</a>
-					<div class="header__burger">
-						<span></span>
-					</div>
-					<nav class="header__menu">
-						<ul class="header__list">
-							<li><a href="https://vk.com/gta_detroit" class="header__link" target="_blank">GTA Detroit
-									ВКонтакте</a>
-							</li>
-							<li><a href=" http://gtadetroit.ru/" class="header__link" target="_blank">GTA Сайт проекта</a></li>
-						</ul>
-					</nav>
-				</div>
-		</header>
-
 		<main>
-			<div class="wrap-radio container">
-				<div class="channel-info__top">
-					<div data-myinfo="img" class="channel-info__top-img"></div>
-					<div class="channel-info__block-title">
-						<h1 class="channel-info__title">Radio Detroit <span class="channel-info__subtitle">слушать онлайн
-								бесплатно</span></h1>
+			<div class="wrap-radio">
+				<header class="header">
+					<div class="header__content container">
+						<div class="header__body">
+							<a href="/" class="header__logo">
+								<img src="img/logo.svg" alt="LOGO">
+							</a>
+							<div class="header__burger">
+								<span></span>
+							</div>
+							<nav class="header__menu">
+								<ul class="header__list">
+									<li><a href="https://vk.com/gta_detroit" class="header__link" target="_blank">GTA Detroit
+											ВКонтакте</a>
+									</li>
+									<li><a href=" http://gtadetroit.ru/" class="header__link" target="_blank">GTA Сайт
+											проекта</a></li>
+								</ul>
+							</nav>
+						</div>
+				</header>
+				<div class="container">
+					<div class="channel-info__top">
+						<div data-myinfo="img" class="channel-info__top-img"></div>
+						<div class="channel-info__block-title">
+							<h1 class="channel-info__title">Radio Detroit <span class="channel-info__subtitle">слушать онлайн
+									бесплатно</span></h1>
+						</div>
 					</div>
-				</div>
-				<div class="channel-info">
-					<!--INFOS - Информация о радио -->
-					<div data-myinfo="img" class="channel-info__img"></div>
-					<div class="channel-info__content">
-						<div class="channel-info__block">
-							<div class="channel-info__box">
-								<span class="channel-info__heading">Сейчас:</span><span data-myinfo="song"
-									class="channel-info__text"></span>
-							</div>
-							<div class="channel-info__box">
-								<span class="channel-info__heading">Следует:</span><span data-myinfo="nextsong"
-									class="channel-info__text"></span>
-							</div>
-						</div>
-						<div id="my_player_custom" class="my_player" data-player="custom" data-autoplay=0 data-volume=30
-							data-streamurl="https://myradio24.org/3311">
-						</div>
-						<div id="my_player_custom_html" style="display:none;"
-							data-imagesurl="{'play':'http://127.0.0.1:5500/img/play.svg','pause':'http://127.0.0.1:5500/img/pause.svg'}">
-							<div class="my_timer" style="width:64px; font:26px Arial; color:#ebba16; margin-bottom: 20px;">
-								00:00</div>
-							<div class="wrap-my_player">
-								<div class="my_play"
-									style="width:64px; height:64px; background-image:url('http://127.0.0.1:5500/img/play.svg'); cursor:pointer; margin-right: 20px;">
+					<div class="channel-info">
+						<!--INFOS - Информация о радио -->
+						<div data-myinfo="img" class="channel-info__img"></div>
+						<div class="channel-info__content">
+							<div class="channel-info__block">
+								<div class="channel-info__box">
+									<span class="channel-info__heading">Сейчас:</span><span data-myinfo="song"
+										class="channel-info__text"></span>
 								</div>
+								<div class="channel-info__box">
+									<span class="channel-info__heading">Следует:</span><span data-myinfo="nextsong"
+										class="channel-info__text"></span>
+								</div>
+							</div>
+							<div id="my_player_custom" class="my_player" data-player="custom" data-autoplay=0 data-volume=30
+								data-streamurl="https://myradio24.org/3311">
+							</div>
+							<div id="my_player_custom_html" style="display:none;"
+								data-imagesurl="{'play':'http://127.0.0.1:5500/img/play.svg','pause':'http://127.0.0.1:5500/img/pause.svg'}">
+								<div class="my_timer" style="width:64px; font:26px Arial; color:#ebba16; margin-bottom: 20px;">
+									00:00</div>
+								<div class="wrap-my_player">
+									<div class="my_play"
+										style="width:64px; height:64px; background-image:url('http://127.0.0.1:5500/img/play.svg'); cursor:pointer; margin-right: 20px;">
+									</div>
 
-								<div class="my_mute"
-									style="width: 14px; height: 20px; background-image: url('http://127.0.0.1:5500/img/mute_volume.svg'); cursor: pointer; margin-right: 20px;">
-								</div>
-								<div class="my_volumediv"
-									style="width:120px; height:16px; background:#303030; background-image:linear-gradient(#634257, #303030); border-radius:3px; cursor:pointer; text-align:left; user-select:none;">
-									<div class="my_volume"
-										style="width:120px; height:16px; background:#ebba16; border-radius:3px;">
+									<div class="my_mute"
+										style="width: 14px; height: 20px; background-image: url('http://127.0.0.1:5500/img/mute_volume.svg'); cursor: pointer; margin-right: 20px;">
+									</div>
+									<div class="my_volumediv"
+										style="width:120px; height:16px; background:#303030; background-image:linear-gradient(#634257, #303030); border-radius:3px; cursor:pointer; text-align:left; user-select:none;">
+										<div class="my_volume"
+											style="width:120px; height:16px; background:#ebba16; border-radius:3px;">
+										</div>
+									</div>
+									<div class="my_loading"
+										style="width:64px; font:16px Arial; color:#ebba16;margin-left: 20px;">
 									</div>
 								</div>
-								<div class="my_loading" style="width:64px; font:16px Arial; color:#ebba16;margin-left: 20px;">
+								<div class="wrap-bottom__block">
+									<div class="wrap-bottom__dj">
+										<span class="channel-info__heading">Вещает:</span><span class="channel-info__text"
+											data-myinfo="djname"></span>
+									</div>
+									<div class="wrap-bottom__social">
+										<a href="https://vk.com/radiodetroit" class="social__icon"><i class="fab fa-vk"></i></a>
+									</div>
 								</div>
-							</div>
-							<div class="wrap-bottom__block">
-								<div class="wrap-bottom__dj">
-									<span class="channel-info__heading">Вещает:</span><span class="channel-info__text"
-										data-myinfo="djname"></span>
-								</div>
-								<div class="wrap-bottom__social">
-									<a href="https://vk.com/radiodetroit" class="social__icon"><i class="fab fa-vk"></i></a>
-								</div>
-							</div>
-							<!--END INFOS-->
-						</div>
-					</div>
-				</div>
-				<div class="channel-descr">
-					<h2 class="channel-info__subtitle">Слушать новинки радио <span class="channel-info__title">Radio
-							Detroit</span> бесплатно</h2>
-					<p class="channel-descr__text">Отдохнуть и расслабиться, погрузиться в мир гармонии и наслаждений – все
-						это вам под силу вместе с
-						каналом <strong><i>«Radio Detroit»</i></strong>. Мелодичная, приятная мелодика,
-						завораживающие вокализы и напевы, сочетание
-						этих двух ингредиентов создает идеальную атмосферу для возникновения приятных мыслей. Станьте
-						первооткрывателем, любите необычное, насладитесь прекрасным и удивительным.</p>
-				</div>
-				<div class="history__song">
-					<!--SONGS -->
-					<span class="history__title"><b>История эфира</b></span>
-					<div class="my_lastsongs" data-revert=1">
-						<div class="my_lastsonghtml" style="display:none;">
-							<div class="history__singl">
-								<img src="https://myradio24.com/%songcover%" class="history__singl-img">
-								<span>%songtime%</span>
-								<a href="https://www.youtube.com/results?search_query=%songencode%" class="history__singl-link"
-									target="_blank" title="Найти на YouTube">%song%</a>
-								<span class=vm_likes data-likeid='%songid%'></span>
+								<!--END INFOS-->
 							</div>
 						</div>
 					</div>
-					<!--END SONGS-->
-				</div>
-				<div class="footer-player">
-					<!--PLAYER - Блок расположения плеера. Плееры: default, lite, energy или custom (свой плеер) (можно несколько) -->
-					<div id="my_player" class="my_player" data-player="adaptive" data-skin="" data-width=200 data-autoplay=0
-						data-volume=30 data-streamurl="https://myradio24.org/3311"></div>
-					<!--END PLAYER-->
+					<div class="channel-descr">
+						<h2 class="channel-info__subtitle">Слушать новинки радио <span class="channel-info__title">Radio
+								Detroit</span> бесплатно</h2>
+						<p class="channel-descr__text">Отдохнуть и расслабиться, погрузиться в мир гармонии и наслаждений –
+							все
+							это вам под силу вместе с
+							каналом <strong><i>«Radio Detroit»</i></strong>. Мелодичная, приятная мелодика,
+							завораживающие вокализы и напевы, сочетание
+							этих двух ингредиентов создает идеальную атмосферу для возникновения приятных мыслей. Станьте
+							первооткрывателем, любите необычное, насладитесь прекрасным и удивительным.</p>
+					</div>
+					<div class="history__song">
+						<!--SONGS -->
+						<span class="history__title"><b>История эфира</b></span>
+						<div class="my_lastsongs" data-revert=1">
+							<div class="my_lastsonghtml" style="display:none;">
+								<div class="history__singl">
+									<img src="https://myradio24.com/%songcover%" class="history__singl-img">
+									<span>%songtime%</span>
+									<a href="https://www.youtube.com/results?search_query=%songencode%"
+										class="history__singl-link" target="_blank" title="Найти на YouTube">%song%</a>
+									<span class=vm_likes data-likeid='%songid%'></span>
+								</div>
+							</div>
+						</div>
+						<!--END SONGS-->
+					</div>
+					<div class="footer-player">
+						<!--PLAYER - Блок расположения плеера. Плееры: default, lite, energy или custom (свой плеер) (можно несколько) -->
+						<div id="my_player" class="my_player" data-player="adaptive" data-skin="" data-width=200
+							data-autoplay=0 data-volume=30 data-streamurl="https://myradio24.org/3311"></div>
+						<!--END PLAYER-->
+					</div>
 				</div>
 			</div>
 		</main>

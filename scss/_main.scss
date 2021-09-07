@@ -1,7 +1,7 @@
 .wrap-radio {
+   max-width: 1170px;
    background: #000000b8;
-   padding: 150px 10px 0 10px;
-   margin-top: 100px;
+   margin: 100px auto;
    border-radius: 10px;
 }
 
@@ -11,6 +11,7 @@
       display: flex;
       align-items: center;
       margin-bottom: 50px;
+      padding-top: 50px;
       &-img {
          width: 80px;
          height: 80px;
@@ -87,28 +88,6 @@
    display: flex;
    justify-content: center;
 }
-
-// .my_player {
-//    &_default {
-//       height: 40px !important;
-//       width: 300px !important;
-//    }
-// }
-
-// .my_player_default .my_play {
-//    top: 12px !important;
-// }
-// .my_player_default .my_timer {
-//    top: 15px !important;
-// }
-// .my_player_default .my_mute {
-//    right: 90px !important;
-//    top: 13px !important;
-// }
-// .my_player_default .my_volumediv {
-//    top: 17px !important;
-//    width: 70px !important;
-// }
 
 .wrap-my_player {
    display: flex;
