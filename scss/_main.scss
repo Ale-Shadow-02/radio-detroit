@@ -66,8 +66,9 @@
       height: 40px;
       border-radius: 50%;
       color: #48729e;
-      background-color: #fff;
+      background-color: #ebba16;
       padding-right: 5px;
+      margin-left: 20px;
       transition: 0.3s;
       &:hover {
          color: #fff;
@@ -87,30 +88,102 @@
    justify-content: center;
 }
 
-.my_player {
-   &_default {
-      height: 40px !important;
-      width: 300px !important;
-   }
-}
+// .my_player {
+//    &_default {
+//       height: 40px !important;
+//       width: 300px !important;
+//    }
+// }
 
-.my_player_default .my_play {
-   top: 12px !important;
-}
-.my_player_default .my_timer {
-   top: 15px !important;
-}
-.my_player_default .my_mute {
-   right: 90px !important;
-   top: 13px !important;
-}
-.my_player_default .my_volumediv {
-   top: 17px !important;
-   width: 70px !important;
-}
+// .my_player_default .my_play {
+//    top: 12px !important;
+// }
+// .my_player_default .my_timer {
+//    top: 15px !important;
+// }
+// .my_player_default .my_mute {
+//    right: 90px !important;
+//    top: 13px !important;
+// }
+// .my_player_default .my_volumediv {
+//    top: 17px !important;
+//    width: 70px !important;
+// }
 
 .wrap-my_player {
    display: flex;
    align-items: center;
    margin-bottom: 20px;
+}
+
+.wrap {
+   &-bottom {
+      &__block {
+         display: flex;
+         align-items: center;
+      }
+      &__social {
+         display: flex;
+         align-items: center;
+      }
+   }
+}
+
+.channel-descr {
+   padding: 50px 0;
+   &__text {
+      margin-top: 30px;
+      max-width: 80%;
+   }
+}
+
+.history {
+   &__song {
+      min-width: 80%;
+      padding-bottom: 50px;
+   }
+   &__title {
+      display: block;
+      margin-bottom: 20px;
+   }
+   &__singl {
+      display: flex;
+      flex-direction: column;
+      &-img {
+         width: 170px;
+         height: 170px;
+         border-radius: 4px;
+         margin-bottom: 10px;
+      }
+      &-link {
+         color: #ebba16;
+         font-size: 16px;
+         &:hover {
+            text-decoration: underline;
+         }
+      }
+   }
+}
+
+.my_lastsongs {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.my_songdivs {
+   flex: 0 1 20%;
+   padding-right: 40px;
+   margin-bottom: 25px;
+}
+
+.my_player_adaptive {
+   background: #ebba16 !important;
+   max-width: 1170px;
+   margin: 0 auto;
+   top: auto;
+   right: 0;
+}
+
+.my_player_adaptive .my_timer {
+   color: #0c1b18 !important;
 }
