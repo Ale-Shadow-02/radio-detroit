@@ -1,47 +1,54 @@
+@media (max-width: 1069px) {
+   .my_songdivs {
+      flex: 0 1 25%;
+   }
+}
+@media (max-width: 859px) {
+   .my_songdivs {
+      flex: 0 1 33%;
+   }
+}
+@media (max-width: 649px) {
+   .my_songdivs {
+      flex: 0 1 50%;
+   }
+}
+
 @media (max-width: 991.98px) {
-   .channel-info {
-      &__img {
-         width: 200px;
-         height: 200px;
-      }
-   }
-   .player {
-      &__title {
-         font-size: 110px;
-      }
-      &__radio {
-         font-size: 90px;
+   .channel {
+      &-descr {
+         &__text {
+            min-width: 100%;
+         }
       }
    }
 }
 
 @media (max-width: 767.98px) {
-   .wrap-radio {
-      flex-direction: column-reverse;
-      padding: 80px 10px 0 10px;
+   .wrap {
+      &-radio {
+         margin: 0 auto;
+      }
    }
-
-   .channel-info {
-      flex: 0 1 100%;
-   }
-   .player {
-      flex: 0 1 100%;
-      padding: 0 0 50px 0;
-   }
-   .footer {
-      &__content {
-         text-align: center;
+   .channel {
+      &-info {
+         flex-direction: column;
+         &__img {
+            width: 300px;
+            margin-bottom: 20px;
+         }
       }
    }
 }
-
-@media (max-width: 767.98px) {
-   .player {
-      &__title {
-         font-size: 90px;
-      }
-      &__radio {
-         font-size: 80px;
+@media (max-width: 479.98px) {
+   .channel {
+      &-info {
+         &__title {
+            font-size: 26px;
+         }
+         &__subtitle {
+            font-size: 16px;
+         }
       }
    }
 }
