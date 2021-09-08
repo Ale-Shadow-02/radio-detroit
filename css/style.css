@@ -91,7 +91,7 @@ body {
   font-size: 20px;
   line-height: 150%;
   background: #333 url(../img/new-bg.jpg) 0 0/cover no-repeat fixed;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #00b416;
 }
 
@@ -179,7 +179,7 @@ img.body__bg {
 }
 
 .header__link {
-  color: #fff;
+  color: #00b416;
   font-size: 18px;
   text-decoration: none;
   -webkit-transition: 0.3s;
@@ -187,7 +187,7 @@ img.body__bg {
 }
 
 .header__link:hover {
-  color: #a31fbf;
+  color: #ebba16;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -315,6 +315,10 @@ img.body__bg {
   margin-right: 15px;
 }
 
+.channel-info__top-img > img {
+  max-width: 100%;
+}
+
 .channel-info__title {
   font-family: Rubik;
   font-size: 30px;
@@ -355,7 +359,7 @@ img.body__bg {
 }
 
 .channel-info__text {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
   margin-left: 10px;
 }
 
@@ -440,9 +444,15 @@ img.body__bg {
 }
 
 .channel-descr__text {
-  color: #fff;
+  font-family: Montserrat;
+  color: #ebba16;
   margin-top: 30px;
   max-width: 80%;
+}
+
+.channel-descr__bold {
+  font-family: Rubik;
+  color: #058714;
 }
 
 .history__song {
@@ -561,5 +571,13 @@ img.body__bg {
   }
   .channel-info__subtitle {
     font-size: 16px;
+    width: 250px;
+  }
+  .channel-descr__text {
+    font-size: 18px;
+  }
+  .history__singl-img {
+    width: 110px;
+    height: 110px;
   }
 }
