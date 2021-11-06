@@ -5,3 +5,10 @@ $(document).ready(function() {
 		$('body').toggleClass('lock');
 	});
 });
+
+let arrow = document.querySelector(".arrow");
+let subNav = document.querySelector('.sub-nav__radio');
+arrow.addEventListener('click', function () {
+	subNav.classList.toggle('nav__active');
+	arrow.classList.toggle('arrow__active');
+})
