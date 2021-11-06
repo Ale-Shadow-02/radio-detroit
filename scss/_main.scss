@@ -196,3 +196,18 @@
 .my_player_adaptive .my_timer {
    color: #0c1b18 !important;
 }
+
+.nav__radio--title {
+   background: #00b831;
+   color: #fff;
+   padding: 5px 20px 5px 10px;
+   border-radius: 5px;
+   text-transform: uppercase;
+   font-size: 18px;
+   font-weight: 600;
+   letter-spacing: 2px;
+}
+
+.nav__radio li {
+   position: relative;
+}
