@@ -21,12 +21,15 @@
             min-width: 100%;
          }
       }
-   }
-   .channel-info__block-radio {
-      flex-direction: column;
-   }
-   .btn {
-      margin-bottom: 5px;
+      &-info {
+         &__block {
+            &-radio {
+               flex: 0 1 100%;
+               margin-left: 0;
+               margin-top: 20px;
+            }
+         }
+      }
    }
 }
 
@@ -42,6 +45,12 @@
          &__img {
             width: 300px;
             margin-bottom: 20px;
+         }
+         &__block {
+            &-title {
+               flex: 0 1 100%;
+               margin-top: 20px;
+            }
          }
       }
    }
